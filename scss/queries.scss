@@ -1,0 +1,87 @@
+@import 'variables.scss';
+
+@media only screen and (max-width: 868px) {
+  .project-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+
+  }
+  .p-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .left-content {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+  .right-content {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: flex-end;
+  }
+  .c-title {
+    font-size: 2.5rem;
+  }
+  .list {
+    min-height: 100px;
+  }
+  .list {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .nav li {
+    margin-right: 2rem;
+  }
+
+  /* NAVIGATION */
+
+
+
+
+
+
+
+  /* RIGHT */
+  .nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: $project-bg;
+    opacity: 0.8;
+
+    .active li {
+      background-color: #fff;
+    }
+  }
+  li:hover {
+    border-bottom: 1px solid rgb(243, 29, 29);
+  }
+  .link.active  {
+    padding: 20px 10px;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+  }
+  .link.active a {
+    
+    color: #fff;;
+  }
+  
+  
+    
+
+}

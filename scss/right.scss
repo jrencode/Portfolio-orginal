@@ -1,0 +1,27 @@
+.right-content {
+  margin-top: 2rem;
+}
+.right-content li, .right-content li a {
+  margin: 1rem 0;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.right-content  .link .fas {
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.link li {
+  transition: 0.5s;
+  text-align: left;
+  font-weight: bold;
+}
+.nav li:hover {
+  color: rgb(243, 29, 29);
+}
+.link.active {
+  a{
+    color: rgb(243, 29, 29);
+  }
+}
