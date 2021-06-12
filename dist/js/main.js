@@ -38,7 +38,7 @@ const showPortfolio = () => {
               <span>SCSS</span>
             </div>
             <div class="list-link">
-              <a href="https://app.netlify.com/sites/renerio-myburger-portfolio/overview">&#8608; View link </a>
+              <a href="https://renerio-myburger-portfolio.netlify.app/">&#8608; View link </a>
             </div>
           </div>
 
