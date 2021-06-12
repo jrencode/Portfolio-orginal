@@ -12,12 +12,13 @@
   margin-right: 10px;
 }
 
-.link li {
+.link a {
   transition: 0.5s;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
+  font-size: 10px;
 }
-.nav li:hover {
+.link:hover {
   color: rgb(243, 29, 29);
 }
 .link.active {

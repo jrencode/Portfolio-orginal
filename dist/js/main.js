@@ -29,12 +29,12 @@ const showPortfolio = () => {
       <div class="portfolio-list">
         
         <div class="list">
-          <img src="../dist/img/p1.png">
+          <img src="../dist/img/MyBurger.jpeg">
           <div class="list-details">
             <h4>Technology: </h4>
             <p> 
               <span>HTML</span>
-              <span>CSS</span>
+              <span>SCSS</span>
               <span>Javascript</span>
             </p>
           </div>
@@ -42,7 +42,7 @@ const showPortfolio = () => {
 
         <div class="list">
 
-        <img src="../dist/img/p2.jpg">
+        <img src="../dist/img/travelX.jpeg">
           <div class="list-details">
             <h4>Technology: </h4>
 
