@@ -29,40 +29,52 @@ const showPortfolio = () => {
       <div class="portfolio-list">
         
         <div class="list">
+
           <img src="../dist/img/MyBurger.jpeg">
           <div class="list-details">
-            <h4>Technology: </h4>
-            <p> 
+            <div class="tech">
+              <h4>Technology:</h4>
               <span>HTML</span>
               <span>SCSS</span>
-              <span>Javascript</span>
-            </p>
+            </div>
+            <div class="list-link">
+              <a href="https://app.netlify.com/sites/renerio-myburger-portfolio/overview">&#8608; View link </a>
+            </div>
           </div>
+
         </div>
 
         <div class="list">
 
-        <img src="../dist/img/travelX.jpeg">
-          <div class="list-details">
-            <h4>Technology: </h4>
+          <img src="../dist/img/travelX.jpeg">
+            <div class="list-details">
+              <div class="tech">
+                <h4>Technology: </h4>
+                <span>HTML</span>
+                <span>CSS</span>
 
-            <p> 
-              <span>HTML</span>
-              <span>CSS</span>
-            </p>
+              </div>
+              <div class="list-link">
+                <a href="https://travelx-ren.netlify.app/"> &#8608; View link </a>
+              </div>
+              
+            </div>
           </div>
-        </div>
 
         <div class="list">
 
-        <img src="../dist/img/p3.jpg">
-          <div class="list-details">
-            <h4>Technology: </h4>
-            <p> 
-              <span>HTML</span>
-              <span>CSS</span>
-            </p>
-          </div>
+          <img src="../dist/img/p3.jpg">
+            <div class="list-details">
+              <h4>Technology: 
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>React JS</span>
+              </h4>
+
+            </div>
+            <div class="list-link">
+                <a href="#"> &#8608; Soon </a>
+            </div>
         </div>
         
       </div>
@@ -96,7 +108,7 @@ const showProfile = () => {
   `
 }
 const showAboutme = () => {
-  console.log('show portfolio');
+  console.log('show aboutme');
   console.log(nav.children[0]);
   aboutmeLink.classList.add('active');
   profileLink.classList.remove('active');
@@ -109,7 +121,19 @@ const showAboutme = () => {
         <h1>Ab<span class="o-replacement"></span>ut me</h1>
     </div>
     <div class="p-text">
-        <p>I am a professional web developer for 5 years</p>
+        <p>
+          My name is Ren. I'm a Front Developer based in Philippines. 
+          I describe myself as a passionate developer who loves coding.
+          I also love designing website that is easy to use by million of users
+        </p>
+        <p>
+          Soon, I like to create and contribute to open source projects that can
+          help me learn new stuff.
+        </p>
+        <p>
+          In my free time, I go out with friends, play sports and video games.
+          
+        </p>
     </div>
   </div>
   `
