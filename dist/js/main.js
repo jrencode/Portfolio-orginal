@@ -36,6 +36,7 @@ const showPortfolio = () => {
               <h4>Technology:</h4>
               <span>HTML</span>
               <span>SCSS</span>
+              <span>Javascript</span>
             </div>
             <div class="list-link">
               <a href="https://renerio-myburger-portfolio.netlify.app/">&#8608; View link </a>
@@ -48,10 +49,12 @@ const showPortfolio = () => {
 
           <img src="../dist/img/travelX.jpeg">
             <div class="list-details">
+
               <div class="tech">
                 <h4>Technology: </h4>
                 <span>HTML</span>
                 <span>CSS</span>
+                <span>Javascript</span>
 
               </div>
               <div class="list-link">
@@ -59,21 +62,24 @@ const showPortfolio = () => {
               </div>
               
             </div>
-          </div>
+        </div>
 
         <div class="list">
 
           <img src="../dist/img/p3.jpg">
             <div class="list-details">
-              <h4>Technology: 
+            
+              <div class="tech">
+                <h4>Technology: </h4>
                 <span>HTML</span>
                 <span>CSS</span>
-                <span>React JS</span>
-              </h4>
+                <span>Javascript</span>
 
-            </div>
-            <div class="list-link">
+              </div>
+              <div class="list-link">
                 <a href="#"> &#8608; Soon </a>
+              </div>
+              
             </div>
         </div>
         
