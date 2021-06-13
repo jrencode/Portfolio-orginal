@@ -1,3 +1,5 @@
+@import 'variables';
+
 /* Portfolio */
 .left-content {
   width: 65%;
@@ -59,7 +61,7 @@
     h4 {
       font-size: 0.8rem;
       color: #fff;
-      padding-left: 10px;
+      padding-left: 7px;
       margin-bottom: 5px;
       text-transform: uppercase;
       font-weight: 400;
@@ -69,7 +71,7 @@
       font-size: 0.75rem;
       color: #fff;
       padding: 3px 7px;
-      background-color: rgba(220, 20, 60, 0.8);
+      background-color: $secondary-color;
       margin-left: 5px;
       border-radius: 5px;
       margin-bottom: 1rem;
@@ -80,9 +82,9 @@
     a {
       color: #fff;
       width: 100%;
-      padding: 5px 10px;
+      padding: 5px 5px;
       text-align: left;
-      border-bottom: 1px solid red;
+      border-bottom: 1px solid $secondary-color;
       transition: all 0.3s;
 
       &:hover {
